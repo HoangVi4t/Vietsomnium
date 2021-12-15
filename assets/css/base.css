@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #222222;
+    --text-color: #777777;
+    --bg-color: #777777;
+    --text-active: #8490ff;
+    --bg-footer: #04091e;
+    --color-hover: #0056b3;
+    --bg-banner: #f9f9ff;
+}
+
+*{
+    box-sizing: inherit ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.625rem;
+    scroll-behavior: smooth;
+}
+
+
+.primary-btn{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
